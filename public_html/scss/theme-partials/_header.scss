@@ -1,0 +1,120 @@
+$header-bg: $primary;
+
+header{
+    height: 10.8rem;
+    background-color: $header-bg;
+    opacity: 0.7;
+
+    .navbar-toggler{
+        span{
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: green;
+            margin-bottom: 5px;
+
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+        }
+    }/*navbar end*/
+
+    .navbar-light{
+        .navbar-nav{
+            a{
+                color: white;
+                font-size: 1.7rem;
+                line-height: 1.7rem;
+                letter-spacing: 0.2rem;
+                font-weight: $header-font-weight;
+                text-align: center;
+                padding: 10px;
+
+                &:hover, .active{
+                    background-color: black;
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        .accordion:after {
+            content: '\02795'; /* Unicode character for "plus" sign (+) */
+            font-size: 13px;
+            color: #777;
+            float: right;
+            margin-left: 2px;
+            display: inline-block;
+        }
+
+        .accordion.active:after {
+            content: "\2796"; /* Unicode character for "minus" sign (-) */
+        }
+    }
+
+    img,
+    .navbar-brand{
+        height: 10.8rem;
+    }
+
+
+    .navbar-nav .nav-item{
+
+        &:last-of-type{
+            margin-right: 0;
+        }
+
+        margin-bottom: 2px;
+        border-bottom: 2px solid transparent;
+
+        &:hover, .active{
+            border-bottom: 2px solid white;
+        }
+
+        .nav-link{
+            color: white;
+            &:hover,.active{
+                color: white;
+            }
+        }
+    }/*navbar-nav end*/
+}/*header-end*/
+
+@media(min-width:768px){
+
+    .navbar{
+        align-items: flex-end !important;
+
+        .dropdown{
+            position: relative;
+            display: block;
+
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                left: 0;
+                z-index: 1;
+            }
+
+            &:hover,{
+                .dropdown-content{
+                    display: block;
+                    justify-content: center;
+                    width: 60rem;
+                    background-color: #ccc;
+                }
+            }
+        }
+    }
+}
+
+.navbar-nav .nav-item{
+
+}
+
+
+
+@media(min-width:1200px){
+    .navbar-nav .nav-item{
+        margin-right: 5rem;
+    }
+}

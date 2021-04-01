@@ -1,0 +1,13 @@
+$bg-footer: $info;
+
+footer{
+    background-color: $bg-footer;
+    color: #fff;
+    font-size: 3rem;
+    
+    .social{
+        a{
+            text-decoration: none;
+        }
+    }
+}

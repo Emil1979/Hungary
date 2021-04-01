@@ -1,0 +1,33 @@
+
+.water-section{
+    margin-bottom: 5rem;
+    
+    .water-description{
+        
+    }
+    
+    .icon{
+        width: 100%;
+        font-size: 15rem;
+        background-color: #007bff;
+        text-align: center;
+    }
+    
+    .balaton,
+    .sosto,
+    .feher,
+    .tisza{
+        height: 26.2rem;
+    }
+}
+
+@media(min-width:992px){
+    
+    .icon{
+        padding-top: 5rem;
+    }
+    
+    .map-info{
+        margin-bottom: 10rem ! important;
+    }
+}

@@ -1,0 +1,17 @@
+$p-font:'pinyon_scriptregular';
+
+// theme fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Pinyon+Script&display=swap');
+
+$Ops: 'Black Ops One', cursive;
+
+
+@font-face {
+    font-family: 'pinyon_scriptregular';
+    src: url('pinyonscript-regular-webfont.woff2') format('woff2'),
+         url('pinyonscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

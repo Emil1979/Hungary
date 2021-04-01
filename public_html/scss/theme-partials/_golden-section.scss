@@ -1,0 +1,16 @@
+
+.golden-section{
+    margin-bottom: 10rem;
+    
+    .golden-title{
+        color: $gold;
+        border-bottom: 3px solid $gold;
+        display: inline-block;
+    }
+    
+    img{
+        display: block;
+        width: 100%;
+        height: 20rem;
+    }
+}

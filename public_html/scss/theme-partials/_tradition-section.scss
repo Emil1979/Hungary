@@ -1,0 +1,137 @@
+$bg-tradition: $primary;
+
+.tradition-section{
+    margin-bottom: 5rem;
+
+    .tradition-item{
+        text-align: center;
+
+        img{
+            display: block;
+            width: 100%;
+            height: 25rem;
+            margin-bottom: 2rem;
+        }
+
+        .caption{
+            position: relative;
+            margin: -100px 0px 0px 20px;
+            background-color: #fff;
+            width: 25rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+    }
+    .tradition-title{
+        color: $bg-tradition;
+        border-bottom: 3px solid $bg-tradition;
+        display: inline-block;
+    }
+    
+    
+}
+
+@media(min-width:576px){
+
+    .tradition-section{
+        text-align: center;
+
+        .tradition-item{
+
+            img{
+                display: block;
+                width: 100%;
+                height: 25rem;
+                margin-bottom: 2rem;
+            }
+
+            .caption{
+                position: relative;
+                margin: -100px 25px 0 10px;
+                background-color: #fff;
+                width: 25rem;
+            }
+
+
+        }
+    }
+    
+    .widget{
+        
+        .posts{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+    }
+
+}
+
+@media(min-width:768px){
+
+    .tradition-section{
+        text-align: center;
+
+        .tradition-item{
+
+            img{
+                display: block;
+                width: 100%;
+                height: 25rem;
+                margin-bottom: 2rem;
+                padding-right: 1rem;
+            }
+
+            .caption{
+                position: relative;
+                margin-top: -100px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: #fff;
+                width: 25rem;
+            }
+
+
+        }
+    }
+    
+    .widget{
+        
+        .posts{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+    }
+
+}
+
+
+@media(min-width:992px){
+
+    .tradition-section{
+
+        .tradition-item{
+
+            img{
+                display: block;
+                width: 100%;
+                height: 25rem;
+                margin-bottom: 2rem;
+            }
+
+            .caption{
+                position: relative;
+                margin: -100px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: #fff;
+                width: 25rem;
+                margin-bottom: 2rem;
+            }
+
+
+        }
+
+    }
+}

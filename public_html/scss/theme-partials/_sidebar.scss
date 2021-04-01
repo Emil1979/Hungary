@@ -1,0 +1,25 @@
+$bg-widget: #f5e9e9;
+
+.tradition-section{
+
+    form{
+        border:1px solid #ccc;
+        input[type=text]{
+            width: 70%;
+            border: none;
+            height: 4rem;
+        }
+
+        input[type=submit]{
+            width: 30%;
+            background: #fff url('../img/search.png') no-repeat center center;
+            background-size: 50% 50%;
+            border: none;
+        }
+    }
+
+    .widget{
+        background-color: $bg-widget;
+    }
+
+}

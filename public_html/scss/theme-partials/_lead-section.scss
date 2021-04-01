@@ -1,0 +1,50 @@
+
+.lead-section{
+    padding-top: 18.9rem;
+    height: 72rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+
+    .lead-title{
+        color: $primary;
+        font-size: 5rem;
+        line-height: 2rem;
+        letter-spacing: 2rem;
+        font-weight: 700;
+        align-items: center;
+        line-height: 8.4rem;
+    }
+}
+
+.history-lead-section{
+    margin-bottom: 5rem;
+    height: 80rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    .history-lead-title{
+        padding-top: 40rem;
+        color: $primary;
+        font-size: 5rem;
+    }
+}
+
+.lead-water-section{
+    height: 72rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+    background-size: cover;
+    
+      .lead-title{
+        color: $primary;
+        font-size: 5rem;
+        line-height: 2rem;
+        letter-spacing: 2rem;
+        font-weight: 700;
+        padding-top: 36rem;
+        line-height: 8.4rem;
+    }
+}

@@ -1,0 +1,49 @@
+$bg-service: $green;
+
+.services{
+    margin-bottom: 5rem;
+    background-color: $bg-service;
+    height: 45rem;
+
+
+
+    .service-title{
+        color: white;
+        border-bottom: 3px solid white;
+        display: inline-block;
+    }
+
+    .service-item{
+
+        img{
+            width: 5.3rem;
+            height: 3.1rem;
+        }
+
+        a{
+            color: white;
+
+        }
+    }
+}
+
+@media(min-width:576px){
+    .services{
+        height: 30rem;
+    }
+
+    .service-item{
+        
+        text-align: center;
+
+        img{
+            width: 8.3rem;
+            height: 8.1rem;
+        }
+
+        a{
+            color: white;
+        }
+    }
+
+}
