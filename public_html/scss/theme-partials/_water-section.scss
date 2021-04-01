@@ -1,4 +1,14 @@
 
+body{
+    color: #fff;
+}
+
+main{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 .water-section{
     margin-bottom: 5rem;
     
@@ -18,7 +28,19 @@
     .feher,
     .tisza{
         height: 26.2rem;
+        width: 100%;
     }
+    
+    a{
+        display: block;
+        color: #fff;
+        margin-bottom: 2rem;
+    }
+}
+
+@media(min-width: 576px){
+    
+  
 }
 
 @media(min-width:992px){
@@ -27,7 +49,9 @@
         padding-top: 5rem;
     }
     
-    .map-info{
-        margin-bottom: 10rem ! important;
+
+    
+    p{
+        font-size: 2rem;
     }
 }

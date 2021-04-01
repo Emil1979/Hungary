@@ -51,10 +51,19 @@ and open the template in the editor.
                     <div class="collapse navbar-collapse" id="main-menu">
                         <ul class="navbar-nav ml-auto mb-2 text-center">
                             <li class="nav-item">
-                                <a class="nav-link d-block text-uppercase active" href="home.html">home</a>
+                                <div class="dropdown clearfix">
+                                <a class="nav-link d-block text-uppercase accordion d-flex" href="home.html">home</a>
+                                <div class="dropdown-content justify-content-center">
+                                    <a href="#" class="d-block">all the golden worths</a>
+                                    <a href="#" class="d-block">wellness and spa centers</a>
+                                    <a href="#" class="d-block">services</a>
+                                    <a href="lakes.html" class="d-block active">must see</a>
+                                    <a href="#" class="d-block">hungarian tradition</a>
+                                </div>
+                                </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link d-block text-uppercase" href="history.html">history<span class="sr-only">(current)</span></a>
+                                <a class="nav-link d-block text-uppercase" href="history.html">history <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link d-block text-uppercase active" href="lakes.html">must see</a>
@@ -63,7 +72,7 @@ and open the template in the editor.
                                 <a class="nav-link d-block text-uppercase" href="services.html">services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link d-block text-uppercase" href="blog.html">must do</a>
+                                <a class="nav-link d-block text-uppercase" href="must_do.html">must do</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link d-block text-uppercase" href="contact.html">Contact</a>
@@ -76,7 +85,7 @@ and open the template in the editor.
         </header><!--header end-->
 
 
-        <main>
+        <main style="background-image: url(img/lakes/water-bubble.jpg)">
 
             <section class="lead-water-section" style="background-image: url(img/lead/lake)">
                 <div class="container">
@@ -125,54 +134,66 @@ and open the template in the editor.
                         </div>
                     </div>
                     <div class="row flex-wrap">
-                        <div class="col-12 col-lg-4">
-                            <h3 class="text-capitalize">balaton</h3>
-                            <img class="balaton d-block" src="img/lakes/balaton.jpg" alt=""/>
+                        <div class="col-12 col-lg-4 mb-5">
+                            <a href="single-lake.html">
+                                <h3 class="text-capitalize">balaton</h3>
+                                <img class="balaton d-block" src="img/lakes/balaton.jpg" alt=""/>
+                            </a>
                             <div class="info">
                                 <p><b>Space:<span></span></b></p>
                                 <p><b>Depth:<span></span></b></p>
                                 <p><b>Rating:<span></span></b></p>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4">
-                            <h3 class="text-capitalize">ferto</h3>
-                            <img class="d-block" src="img/lakes/ferto.jpg" alt=""/>
+                        <div class="col-12 col-lg-4 mb-5">
+                            <a href="/single-lake.php?id=2">
+                                <h3 class="text-capitalize">ferto</h3>
+                                <img class="d-block" src="img/lakes/ferto.jpg" alt=""/>
+                            </a>
                             <div class="info">
                                 <p><b>Space:<span></span></b></p>
                                 <p><b>Depth:<span></span></b></p>
                                 <p><b>Rating:<span></span></b></p>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4">
-                            <h3 class="text-capitalize">velence</h3>
-                            <img class="d-block" src="img/lakes/velence.jpg" alt=""/>
+                        <div class="col-12 col-lg-4 mb-5">
+                            <a href="/single-lake.php?id=3">
+                                <h3 class="text-capitalize">velence</h3>
+                                <img class="d-block" src="img/lakes/velence.jpg" alt=""/>
+                            </a>
                             <div class="info">
                                 <p><b>Space:<span></span></b></p>
                                 <p><b>Depth:<span></span></b></p>
                                 <p><b>Rating:<span></span></b></p>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4">
-                            <h3 class="text-capitalize">sosto</h3>
-                            <img class="d-block sosto" src="img/lakes/sosto.jpg" alt=""/>
+                        <div class="col-12 col-lg-4 mb-5">
+                            <a href="/single-lake.php?id=4">
+                                <h3 class="text-capitalize">sosto</h3>
+                                <img class="d-block sosto" src="img/lakes/sosto.jpg" alt=""/>
+                            </a>
                             <div class="info">
                                 <p><b>Space:<span></span></b></p>
                                 <p><b>Depth:<span></span></b></p>
                                 <p><b>Rating:<span></span></b></p>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4">
-                            <h3 class="text-capitalize">feher</h3>
-                            <img class="d-block feher" src="img/lakes/feher.jpeg" alt=""/>
+                        <div class="col-12 col-lg-4 mb-5">
+                            <a href="/single-lake.php?id=5">
+                                <h3 class="text-capitalize">feher</h3>
+                                <img class="d-block feher" src="img/lakes/feher.jpeg" alt=""/>
+                            </a>
                             <div class="info">
                                 <p><b>Space:<span></span></b></p>
                                 <p><b>Depth:<span></span></b></p>
                                 <p><b>Rating:<span></span></b></p>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4">
-                            <h3 class="text-capitalize">tisza</h3>
-                            <img class="d-block tisza" src="img/lakes/tisza.jpg" alt=""/>
+                        <div class="col-12 col-lg-4 mb-5">
+                            <a href="/single-lake.php?id=6">
+                                <h3 class="text-capitalize">tisza</h3>
+                                <img class="d-block tisza" src="img/lakes/tisza.jpg" alt=""/>
+                            </a>
                             <div class="info">
                                 <p><b>Space:<span></span></b></p>
                                 <p><b>Depth:<span></span></b></p>
@@ -183,7 +204,7 @@ and open the template in the editor.
                 </div>
             </section><!--water-section-end-->
 
-            <section class="map-info mb-5">
+            <section class="map-info py-5">
                 <div class="container">
                     <div>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d692216.7635900311!2d17.713870389937817!3d47.33442335878506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssr!2srs!4v1617220217467!5m2!1ssr!2srs" width="1100" height="450" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
