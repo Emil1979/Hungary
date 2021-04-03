@@ -2,147 +2,149 @@ $bg-spa: $blue;
 $caption-bg: $gray;
 
 .spa-section{
-margin-bottom: 5rem;
-    
+    margin-bottom: 5rem;
+
     .spa-title{
         color: $bg-spa;
         border-bottom: 3px solid $bg-spa;
         display: inline-block;
     }
-    
-    .owl-stage-outer{
-        height: 25rem;
-    }
 
 }
 
+
 .spa-places{
-    
+
     img{
         display: block;
-        height: 25rem;
+        height: 100%;
+        position: absolute;
     }
-    
+
     .caption{
         color: #fff;
+        font-size: 1rem;
         position: relative;
-        top: -25rem;
+        margin-top: 0;
         background-color: $caption-bg;
+        height: 100%;
+        width: 75%;
+        margin-left: 7rem;
     }
 }
 
 
 
 @media(min-width: 768px){
-    
+
     .spa-section{
 
-    .spa-title{
-        color: $bg-spa;
-        border-bottom: 3px solid $bg-spa;
-        display: inline-block;
-    }
-
-    .wellness-table-slider{
-        padding: 30px 0;
-        .owl-stage-outer{
-            height: 35rem;
+        .spa-title{
+            color: $bg-spa;
+            border-bottom: 3px solid $bg-spa;
+            display: inline-block;
         }
 
-    }
-}
+        .wellness-table-slider{
+            padding: 30px 0;
+            .owl-stage-outer{
+                height: 35rem;
+            }
 
-.spa-places{
-    
-    img{
-        display: block;
-        height: 45rem;
+        }
     }
-    
-    .caption{
-        font-size: 2.2rem;
-        left: 35rem;
-        color: #fff;
-        position: relative;
-        top: -45rem;
-        background-color: $caption-bg;
+
+    .spa-places{
+
+        img{
+            display: block;
+            height: 45rem;
+        }
+
+        .caption{
+            font-size: 2.2rem;
+            left: 35rem;
+            color: #fff;
+            position: relative;
+            top: -45rem;
+            background-color: $caption-bg;
+        }
     }
-}
-    
+
 }
 
 @media(min-width: 992px){
-    
+
     .spa-section{
 
-    .spa-title{
-        color: $bg-spa;
-        border-bottom: 3px solid $bg-spa;
-        display: inline-block;
-    }
-
-    .wellness-table-slider{
-        padding: 30px 0;
-        .owl-stage-outer{
-            height: 55rem;
+        .spa-title{
+            color: $bg-spa;
+            border-bottom: 3px solid $bg-spa;
+            display: inline-block;
         }
 
-    }
-}
+        .wellness-table-slider{
+            padding: 30px 0;
+            .owl-stage-outer{
+                height: 55rem;
+            }
 
-.spa-places{
-    
-    img{
-        display: block;
-        height: 65rem;
+        }
     }
-    
-    .caption{
-        font-size: 2.5rem;
-        left: 64rem;
-        color: #fff;
-        position: relative;
-        top: -65rem;
-        background-color: $caption-bg;
+
+    .spa-places{
+
+        img{
+            display: block;
+            height: 65rem;
+        }
+
+        .caption{
+            font-size: 2.5rem;
+            left: 64rem;
+            color: #fff;
+            position: relative;
+            top: -65rem;
+            background-color: $caption-bg;
+        }
     }
-}
-    
+
 }
 
 @media(min-width: 1200px){
-    
+
     .spa-section{
 
-    .spa-title{
-        color: $bg-spa;
-        border-bottom: 3px solid $bg-spa;
-        display: inline-block;
-    }
-
-    .wellness-table-slider{
-        padding: 30px 0;
-        .owl-stage-outer{
-            height: 55rem;
+        .spa-title{
+            color: $bg-spa;
+            border-bottom: 3px solid $bg-spa;
+            display: inline-block;
         }
 
-    }
-}
+        .wellness-table-slider{
+            padding: 30px 0;
+            .owl-stage-outer{
+                height: 55rem;
+            }
 
-.spa-places{
-    
-    img{
-        display: block;
-        height: 65rem;
+        }
     }
-    
-    .caption{
-        font-size: 2.8rem;
-        left: 74rem;
-        color: #fff;
-        position: relative;
-        top: -65rem;
-        background-color: $caption-bg;
+
+    .spa-places{
+
+        img{
+            display: block;
+            height: 65rem;
+        }
+
+        .caption{
+            font-size: 2.8rem;
+            left: 74rem;
+            color: #fff;
+            position: relative;
+            top: -65rem;
+            background-color: $caption-bg;
+        }
     }
-}
-    
+
 }

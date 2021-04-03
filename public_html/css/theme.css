@@ -9578,14 +9578,14 @@ img {
   max-width: 100%;
 }
 
-h1, h2, h3,
-h4, h5 {
-  font-family: "Black Ops One", cursive;
-}
-
 body {
   font-family: "pinyon_scriptregular";
   font-weight: 300;
+}
+
+body h1, body h2, body h3,
+body h4, body h5 {
+  font-family: "Black Ops One", cursive !important;
 }
 
 .lead-section {
@@ -9771,20 +9771,21 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
   display: inline-block;
 }
 
-.spa-section .owl-stage-outer {
-  height: 25rem;
-}
-
 .spa-places img {
   display: block;
-  height: 25rem;
+  height: 100%;
+  position: absolute;
 }
 
 .spa-places .caption {
   color: #fff;
+  font-size: 1rem;
   position: relative;
-  top: -25rem;
+  margin-top: 0;
   background-color: rgba(194, 184, 182, 0.5);
+  height: 100%;
+  width: 75%;
+  margin-left: 7rem;
 }
 
 @media (min-width: 768px) {
@@ -10125,6 +10126,10 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
   display: inline-block;
 }
 
+.tradition-section .pagination {
+  color: black;
+}
+
 @media (min-width: 576px) {
   .tradition-section {
     text-align: center;
@@ -10292,13 +10297,20 @@ main {
 }
 
 .services-section .booking-section .booking-picture {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
   height: 100%;
   width: 100%;
+}
+
+.travel-section .title {
+  flex: 0 0 50%;
+}
+
+.travel-section a {
+  flex: 0 0 50%;
+}
+
+.travel-section .tab-content {
+  color: black;
 }
 
 /*# sourceMappingURL=theme.css.map */

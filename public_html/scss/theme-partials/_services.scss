@@ -12,13 +12,24 @@ $bg-booking:#424bf5;
         }
 
         .booking-picture{
-            -webkit-transform:rotate(90deg);
-            -moz-transform: rotate(90deg);
-            -ms-transform: rotate(90deg);
-            -o-transform: rotate(90deg);
-            transform: rotate(90deg);
+            
             height: 100%;
             width: 100%;
         }
+    }
+}
+
+.travel-section{
+    
+    .title{
+        flex: 0 0 50%;
+    }
+    
+    a{
+        flex: 0 0 50%;
+    }
+    
+    .tab-content{
+        color: black;
     }
 }
