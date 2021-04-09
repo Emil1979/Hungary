@@ -3,8 +3,12 @@ $bg-booking:#424bf5;
 .services-section{
     background-color: $bg-booking;
 
-    .booking-section{
+    p,a{
+        font-size: 1.5rem;
+    }
 
+    .booking-section{
+        border-bottom: 1px solid white;
 
         .card-title{
             color: black;
@@ -12,24 +16,320 @@ $bg-booking:#424bf5;
         }
 
         .booking-picture{
-            
+
             height: 100%;
             width: 100%;
         }
     }
+
+    .travel-section{
+        border-bottom: 1px solid white;
+
+        .title{
+            flex: 0 0 30%;
+        }
+
+        a{
+            flex: 0 0 70%;
+        }
+
+        .tab-content{
+
+            color: black;
+            border: 1px solid rgb(222, 226, 230);
+        }
+
+        .nav-tabs .nav-item{
+            border: 1px solid transparent;
+            &:hover{
+                background-color: #fff;
+                border: 1px solid rgb(222, 226, 230);
+                border-bottom: none;
+            }
+
+
+        }
+
+        [role="tab"]:hover,
+            [role="tab"]:focus,
+            [role="tab"]:active {
+            outline: 0;
+            border-radius: 0;
+            color: #ccc;
+            background-color: white;
+        }
+
+        #tourism,
+        #travel,
+        #transport,
+        #info{
+            padding: 2rem;
+        }
+
+        .table-title{
+            font-size: 1.5rem;
+        }
+
+        table{
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            width: 50%;
+        }
+
+        .nature-1,
+        .culture-1,
+        .history-1,
+        .rail-1,
+        .mean-1,
+        .map-1,
+        .trans-1,
+        .currency-1,
+        .pay-1,
+        .diet-1,
+        .drink-1,
+        .local-1{
+            flex: 0 0 50%;
+        }
+
+        .nature-2,
+        .culture-2,
+        .history-2,
+        .rail-2,
+        .mean-2,
+        .map-2,
+        .trans-2,
+        .currency-2,
+        .pay-2,
+        .diet-2,
+        .drink-2,
+        .local-2{
+            flex: 0 0 50%;
+        }
+
+        .currency-3,
+        .currency-5,
+        .food-1,
+        .climate-1,
+        .period-1{
+            flex: 0 0 50%;
+        }
+
+        .currency-4,
+        .currency-6,
+        .food-2,
+        .climate-2,
+        .period-2{
+            flex: 0 0 50%;
+        }
+
+        .information{
+            .info-1{
+                flex: 0 0 50%;
+            }
+            .info-2{
+                flex: 0 0 50%;
+            }
+        }
+
+        .card-header{
+            background-color: $bg-booking;
+            color: white;
+
+            .fa-globe,
+            .fa-taxi,
+            .fa-bus,
+            .fa-train,
+            .fa-car,
+            .fa-plane-departure{
+                font-size: 3rem;
+                background-color: black;
+            }
+        }
+
+        .card-title{
+            text-align: center;
+        }
+
+        #transport{
+            .card{
+                height: 16rem;
+            }
+        }
+
+        .flights{
+            thead{
+                background-color: $bg-booking;
+            }
+
+            td{
+                width: 25%;
+                text-align: center;
+            }
+        }
+
+    }/*travel-section-end*/
+
+    
 }
 
-.travel-section{
-    
-    .title{
-        flex: 0 0 50%;
+
+
+@media(min-width:576px){
+
+    .booking-section{
+        margin-bottom: 5rem;
     }
-    
-    a{
-        flex: 0 0 50%;
+
+    .travel-section{
+        .culture-1,
+        .history-1,
+        .rail-1,
+        .mean-1,
+        .map-1,
+        .currency-1,
+        .pay-1,
+        .diet-1,
+        .drink-1,
+        .local-1{
+            flex: 0 0 30%;
+        }
+
+        .culture-2,
+        .history-2
+        .rail-2,
+        .mean-2,
+        .map-2,
+        .currency-2,
+        .pay-2,
+        .diet-2,
+        .drink-2,
+        .local-2{
+            flex: 0 0 70%;
+        }
+
+        .currency-3,
+        .currency-5,
+        .food-1,
+        .climate-1,
+        .period-1{
+            flex: 0 0 30%;
+        }
+
+        .currency-4,
+        .currency-6,
+        .food-2,
+        .climate-2,
+        .period-2{
+            flex: 0 0 70%;
+        }
+
+        .information{
+            .info-1{
+                flex: 0 0 30%;
+            }
+            .info-2{
+                flex: 0 0 70%;
+            }
+        }
+
+        .history-2{
+            p{
+                margin-bottom: 0;
+            }
+        }
+
+        .tables{
+            display: flex;
+
+            .table-2,
+            .table-1{
+                flex: 0 0 50%;
+            }
+        }
+
+    }/*travel-section-end*/
+
+    .clubbing-section{
+
+        img{
+            height: 51rem;
+        }
+
+    }/*clubbing-section-end*/
+
+}
+
+@media(min-width:992px){
+
+    .booking-section{
+        margin-bottom: 5rem;
     }
-    
-    .tab-content{
-        color: black;
-    }
+
+    .travel-section{
+        margin-bottom: 5rem;
+        .culture-1,
+        .history-1,
+        .mean-1,
+        .map-1,
+        .currency-1,
+        .pay-1,
+        .diet-1,
+        .drink-1,
+        .local-1{
+            flex: 0 0 40%;
+        }
+
+        .culture-2,
+        .history-2,
+        .mean-2,
+        .map-2,
+        .currency-2,
+        .pay-2,
+        .diet-2,
+        .drink-2,
+        .local-2{
+            flex: 0 0 60%;
+        }
+
+        .currency-3,
+        .currency-5,
+        .food-1,
+        .climate-1,
+        .period-1{
+            flex: 0 0 40%;
+        }
+
+        .currency-4,
+        .currency-6,
+        .food-2,
+        .climate-2,
+        .period-2{
+            flex: 0 0 60%;
+        }
+
+        .information{
+            .info-1{
+                flex: 0 0 40%;
+            }
+            .info-2{
+                flex: 0 0 60%;
+            }
+        }
+
+
+    }/*travel-section-end*/
+
+    .clubbing-section{
+
+        img{
+            height: 51rem;
+        }
+
+    }/*clubbing-section-end*/
+
 }

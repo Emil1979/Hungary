@@ -10219,11 +10219,22 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
 footer {
   background-color: #1e7e34;
   color: #fff;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 footer .social a {
   text-decoration: none;
+}
+
+@media (min-width: 576px) {
+  footer {
+    background-color: #1e7e34;
+    color: #fff;
+    font-size: 3rem;
+  }
+  footer .social a {
+    text-decoration: none;
+  }
 }
 
 .era-section {
@@ -10289,6 +10300,15 @@ main {
 
 .services-section {
   background-color: #424bf5;
+  /*travel-section-end*/
+}
+
+.services-section p, .services-section a {
+  font-size: 1.5rem;
+}
+
+.services-section .booking-section {
+  border-bottom: 1px solid white;
 }
 
 .services-section .booking-section .card-title {
@@ -10301,16 +10321,268 @@ main {
   width: 100%;
 }
 
-.travel-section .title {
-  flex: 0 0 50%;
+.services-section .travel-section {
+  border-bottom: 1px solid white;
 }
 
-.travel-section a {
-  flex: 0 0 50%;
+.services-section .travel-section .title {
+  flex: 0 0 30%;
 }
 
-.travel-section .tab-content {
+.services-section .travel-section a {
+  flex: 0 0 70%;
+}
+
+.services-section .travel-section .tab-content {
   color: black;
+  border: 1px solid #dee2e6;
+}
+
+.services-section .travel-section .nav-tabs .nav-item {
+  border: 1px solid transparent;
+}
+
+.services-section .travel-section .nav-tabs .nav-item:hover {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-bottom: none;
+}
+
+.services-section .travel-section [role="tab"]:hover,
+.services-section .travel-section [role="tab"]:focus,
+.services-section .travel-section [role="tab"]:active {
+  outline: 0;
+  border-radius: 0;
+  color: #ccc;
+  background-color: white;
+}
+
+.services-section .travel-section #tourism,
+.services-section .travel-section #travel,
+.services-section .travel-section #transport,
+.services-section .travel-section #info {
+  padding: 2rem;
+}
+
+.services-section .travel-section .table-title {
+  font-size: 1.5rem;
+}
+
+.services-section .travel-section table {
+  width: 100%;
+}
+
+.services-section .travel-section td, .services-section .travel-section th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width: 50%;
+}
+
+.services-section .travel-section .nature-1,
+.services-section .travel-section .culture-1,
+.services-section .travel-section .history-1,
+.services-section .travel-section .rail-1,
+.services-section .travel-section .mean-1,
+.services-section .travel-section .map-1,
+.services-section .travel-section .trans-1,
+.services-section .travel-section .currency-1,
+.services-section .travel-section .pay-1,
+.services-section .travel-section .diet-1,
+.services-section .travel-section .drink-1,
+.services-section .travel-section .local-1 {
+  flex: 0 0 50%;
+}
+
+.services-section .travel-section .nature-2,
+.services-section .travel-section .culture-2,
+.services-section .travel-section .history-2,
+.services-section .travel-section .rail-2,
+.services-section .travel-section .mean-2,
+.services-section .travel-section .map-2,
+.services-section .travel-section .trans-2,
+.services-section .travel-section .currency-2,
+.services-section .travel-section .pay-2,
+.services-section .travel-section .diet-2,
+.services-section .travel-section .drink-2,
+.services-section .travel-section .local-2 {
+  flex: 0 0 50%;
+}
+
+.services-section .travel-section .currency-3,
+.services-section .travel-section .currency-5,
+.services-section .travel-section .food-1,
+.services-section .travel-section .climate-1,
+.services-section .travel-section .period-1 {
+  flex: 0 0 50%;
+}
+
+.services-section .travel-section .currency-4,
+.services-section .travel-section .currency-6,
+.services-section .travel-section .food-2,
+.services-section .travel-section .climate-2,
+.services-section .travel-section .period-2 {
+  flex: 0 0 50%;
+}
+
+.services-section .travel-section .information .info-1 {
+  flex: 0 0 50%;
+}
+
+.services-section .travel-section .information .info-2 {
+  flex: 0 0 50%;
+}
+
+.services-section .travel-section .card-header {
+  background-color: #424bf5;
+  color: white;
+}
+
+.services-section .travel-section .card-header .fa-globe,
+.services-section .travel-section .card-header .fa-taxi,
+.services-section .travel-section .card-header .fa-bus,
+.services-section .travel-section .card-header .fa-train,
+.services-section .travel-section .card-header .fa-car,
+.services-section .travel-section .card-header .fa-plane-departure {
+  font-size: 3rem;
+  background-color: black;
+}
+
+.services-section .travel-section .card-title {
+  text-align: center;
+}
+
+.services-section .travel-section #transport .card {
+  height: 16rem;
+}
+
+.services-section .travel-section .flights thead {
+  background-color: #424bf5;
+}
+
+.services-section .travel-section .flights td {
+  width: 25%;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .booking-section {
+    margin-bottom: 5rem;
+  }
+  .travel-section .culture-1,
+  .travel-section .history-1,
+  .travel-section .rail-1,
+  .travel-section .mean-1,
+  .travel-section .map-1,
+  .travel-section .currency-1,
+  .travel-section .pay-1,
+  .travel-section .diet-1,
+  .travel-section .drink-1,
+  .travel-section .local-1 {
+    flex: 0 0 30%;
+  }
+  .travel-section .culture-2,
+  .travel-section .history-2 .rail-2,
+  .travel-section .mean-2,
+  .travel-section .map-2,
+  .travel-section .currency-2,
+  .travel-section .pay-2,
+  .travel-section .diet-2,
+  .travel-section .drink-2,
+  .travel-section .local-2 {
+    flex: 0 0 70%;
+  }
+  .travel-section .currency-3,
+  .travel-section .currency-5,
+  .travel-section .food-1,
+  .travel-section .climate-1,
+  .travel-section .period-1 {
+    flex: 0 0 30%;
+  }
+  .travel-section .currency-4,
+  .travel-section .currency-6,
+  .travel-section .food-2,
+  .travel-section .climate-2,
+  .travel-section .period-2 {
+    flex: 0 0 70%;
+  }
+  .travel-section .information .info-1 {
+    flex: 0 0 30%;
+  }
+  .travel-section .information .info-2 {
+    flex: 0 0 70%;
+  }
+  .travel-section .history-2 p {
+    margin-bottom: 0;
+  }
+  .travel-section .tables {
+    display: flex;
+  }
+  .travel-section .tables .table-2,
+  .travel-section .tables .table-1 {
+    flex: 0 0 50%;
+  }
+  /*travel-section-end*/
+  .clubbing-section img {
+    height: 51rem;
+  }
+  /*clubbing-section-end*/
+}
+
+@media (min-width: 992px) {
+  .booking-section {
+    margin-bottom: 5rem;
+  }
+  .travel-section {
+    margin-bottom: 5rem;
+  }
+  .travel-section .culture-1,
+  .travel-section .history-1,
+  .travel-section .mean-1,
+  .travel-section .map-1,
+  .travel-section .currency-1,
+  .travel-section .pay-1,
+  .travel-section .diet-1,
+  .travel-section .drink-1,
+  .travel-section .local-1 {
+    flex: 0 0 40%;
+  }
+  .travel-section .culture-2,
+  .travel-section .history-2,
+  .travel-section .mean-2,
+  .travel-section .map-2,
+  .travel-section .currency-2,
+  .travel-section .pay-2,
+  .travel-section .diet-2,
+  .travel-section .drink-2,
+  .travel-section .local-2 {
+    flex: 0 0 60%;
+  }
+  .travel-section .currency-3,
+  .travel-section .currency-5,
+  .travel-section .food-1,
+  .travel-section .climate-1,
+  .travel-section .period-1 {
+    flex: 0 0 40%;
+  }
+  .travel-section .currency-4,
+  .travel-section .currency-6,
+  .travel-section .food-2,
+  .travel-section .climate-2,
+  .travel-section .period-2 {
+    flex: 0 0 60%;
+  }
+  .travel-section .information .info-1 {
+    flex: 0 0 40%;
+  }
+  .travel-section .information .info-2 {
+    flex: 0 0 60%;
+  }
+  /*travel-section-end*/
+  .clubbing-section img {
+    height: 51rem;
+  }
+  /*clubbing-section-end*/
 }
 
 /*# sourceMappingURL=theme.css.map */

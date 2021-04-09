@@ -3,11 +3,27 @@ $bg-footer: $info;
 footer{
     background-color: $bg-footer;
     color: #fff;
-    font-size: 3rem;
-    
+    font-size: 2rem;
+
     .social{
         a{
             text-decoration: none;
+        }
+    }
+}
+
+
+@media(min-width: 576px){
+
+    footer{
+        background-color: $bg-footer;
+        color: #fff;
+        font-size: 3rem;
+
+        .social{
+            a{
+                text-decoration: none;
+            }
         }
     }
 }

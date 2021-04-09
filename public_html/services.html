@@ -72,7 +72,7 @@ and open the template in the editor.
                                 <a class="nav-link d-block text-uppercase active" href="services.html">services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link d-block text-uppercase" href="must_do.html">must do</a>
+                                <a class="nav-link d-block text-uppercase" href="must-do.html">must do</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link d-block text-uppercase" href="contact.html">Contact</a>
@@ -171,11 +171,11 @@ and open the template in the editor.
                     </div>
                 </section><!--booking-section-end-->
 
-                <section class="travel-section bg-white">
+                <section class="travel-section">
                     <div class="container">
-                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <ul class="nav nav-tabs border-bottom-0" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="travel-tab" data-bs-toggle="tab" data-bs-target="#travel" type="button" role="tab" aria-controls="travel" aria-selected="true">Travelling</button>
+                                <button class="nav-link active" id="travel-tab" data-bs-toggle="tab" data-bs-target="#travel" type="button" role="tab" aria-controls="travel" aria-selected="false">Travelling</button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false">Practical information</button>
@@ -188,8 +188,8 @@ and open the template in the editor.
                             </li>
                         </ul>
                         <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active border-primary" id="travel" role="tabpanel" aria-labelledby="travel-tab">
-                                <h2>Travelling to Hungary</h2>
+                            <div class="tab-panel fade show bg-white px-3" id="travel" role="tabpanel" aria-labelledby="travel-tab">
+                                <h2>Traveling to Hungary</h2>
                                 <h5>Entry Requirements</h5>
                                 <article class="visas d-flex">
                                     <p class="title">Passport and Visa Service</p>
@@ -259,7 +259,7 @@ and open the template in the editor.
                                 </article>
                                 <article class="visas d-flex">
                                     <p class="title">
-                                       For Further Information on</p>
+                                        For Further Information on</p>
                                     <a href="#" class="d-block">
                                         <p>
                                             Government Portal for Hungary
@@ -268,7 +268,7 @@ and open the template in the editor.
                                 </article>
                                 <article class="visas d-flex">
                                     <p class="title">
-                                       Safety Conditions</p>
+                                        Safety Conditions</p>
                                     <a href="#" class="d-block">
                                         <p>
                                             Travel advice from the Government of Canada
@@ -277,21 +277,400 @@ and open the template in the editor.
                                 </article>
                                 <article class="visas d-flex">
                                     <p class="title">
-                                       Contact Your Embassy</p>
+                                        Contact Your Embassy</p>
                                     <a href="#" class="d-block">
                                         <p>
                                             Embassy of Serbia in Hungary
                                         </p>
                                     </a>
                                 </article>
-                            </div>
-                            <div class="tab-pane fade" id="info" role="tabpanel" aria-labelledby="info-tab">...</div>
-                            <div class="tab-pane fade" id="transport" role="tabpanel" aria-labelledby="transport-tab">...</div>
-                            <div class="tab-pane fade" id="tourism" role="tabpanel" aria-labelledby="tourism-tab">...</div>
-                        </div>
+                            </div><!--travel-panel-end-->
+                            <div class="tab-panel fade show bg-white" id="info" role="tabpanel" aria-labelledby="info-tab">
+                                <h2 class="mb-5">Practical information for travellers in Hungary</h2>
+                                <h4 class="mb-5">Living Conditions</h4>
+                                <h5 class="text-uppercase table-title">emergency numbers</h5>
+                                <table class="mb-5">
+                                    <tr>
+                                        <td>General emergency</td>
+                                        <td>112</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ambulance</td>
+                                        <td>104</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ambulance in English</td>
+                                        <td>311 1666</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Firefighters</td>
+                                        <td>105</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Police</td>
+                                        <td>107</td>
+                                    </tr>
+                                    <tr>
+                                        <td>English language hot-line</td>
+                                        <td>438-8080</td>
+                                    </tr>
+                                </table>
+                                <h5 class="mb-5">Time Difference and Climate</h5>
+                                <div class="local d-flex">
+                                    <p class="local-1">Current Local Time</p>
+                                    <p class="local-2">It is 22.37 in Budapest</p>
+                                </div>
+                                <div class="period d-flex mb-5">
+                                    <p class="period-1">Summer Time Period</p>
+                                    <p class="period-2">Standard Time: until last Sunday of March: the clocks spring forward one hour
+                                        Summer (Daylight Saving) Time: until the last Sunday of October: the clocks spring backwards one hour.</p>
+                                </div>
+                                <h5 class="text-uppercase">Map of the Time Zone</h5>
+                                <img class="d-block map mb-5" src="img/timezone.gif" alt=""/>
+                                <div class="climate d-flex">
+                                    <p class="climate-1">Type of Climate</p>
+                                    <p class="climate-2">Hungary has four distinct seasons with a very warm summer from June to August. Spring and autumn are mild while winters are usually very cold. Rainfall is scattered throughout the year with regular snowfalls during the winter months.
+                                        The average annual temperature is 11 °C
+                                        The coldest month is January (average temperature -2°C)
+                                        The hottest month is July (average temperature 28°C).
+                                        April, May and September are widely considered to be the best months to visit the country.</p>
+                                </div>
+                                <div class="information d-flex mb-5">
+                                    <p class="info-1">For Further Information</p>
+                                    <a class="info-2 d-block" href="#">Hungary Online Weather Services</a>
+                                </div>
+                                <h5>Average Annual Temperatures and Rainfall</h5>
+                                <img class="d-block mb-5" src="img/temp_map.gif" alt=""/>
 
-                    </div>
+                                <h5 class="mb-5">Eating</h5>
+                                <article class="food d-flex">
+                                    <p class="food-1">Food Specialties</p>
+                                    <p class="food-2">
+                                        - Halászlé: a spicy soup made with freshwater fish and paprika.<br>
+                                        - Gulyás: Hungarian goulash is a hearty beef, capsicum and paprika soup.<br>
+                                        - Western goulash is called pörkölt or tokány.<br>
+                                        - Gundel palacsinta: pancake served with walnuts, raisins, lemon rind, chocolate sauce and rum.<br>
+                                        - Paprikás csirke: paprika chicken.<br>
+                                        - Kolbasz: sausage spiced with paprika.<br>
+                                    </p>
+                                </article>
+                                <article class="drink d-flex">
+                                    <p class="drink-1">Drinks</p>
+                                    <p class="drink-2">
+                                        - Tokaji: strong dessert wine.<br>
+                                        - Bull’s Blood: strong red wine.<br>
+                                        - Pálinka: brandy.<br>
+                                        - Unicum: herb liqueur.
+                                    </p>
+                                </article>
+                                <article class="diet d-flex mb-5">
+                                    <p class="diet-1">Dietary Restrictions</p>
+                                    <p class="diet-2">None</p>
+                                </article>
+
+                                <h5 class="mb-5">Paying</h5>
+                                <article class="pay d-flex">
+                                    <p class="pay-1">Domestic Currency</p>
+                                    <p class="pay-2">Hungarian Forint</p>
+                                </article>
+                                <article class="currency d-flex">
+                                    <p class="currency-1">ISO Code</p>
+                                    <p class="currency-2">HUF</p>
+                                </article>
+                                <article class="currency d-flex">
+                                    <p class="currency-3">To Obtain Domestic Currency</p>
+                                    <p class="currency-4">The most practical way 
+                                        is to withdraw money directly from ATMs. 
+                                        There are many of them and they are easily 
+                                        accessible in airports, city centres and 
+                                        all over the country. Currency can be exchanged at hotels, 
+                                        banks, bureaux de change, airports, railway stations, 
+                                        travel agencies and some restaurants throughout the country. 
+                                        Automatic exchange machines are available in 
+                                        Budapest and other main tourist centres.</p>
+                                </article>
+                                <article class="currency d-flex">
+                                    <p class="currency-5">Possible Means of Payment</p>
+                                    <p class="currency-6">In urban areas, the number 
+                                        of retail transactions using bank or debit 
+                                        cards has grown in recent years, but paper 
+                                        currency is still dominant in Hungary. 
+                                        Debit Cards and Traveller's Cheques are 
+                                        accepted in some stores and banks, but not all. 
+                                        To avoid additional exchange rate charges, 
+                                        travellers are advised to take traveller's 
+                                        cheques in Euros or U.S. Dollars.</p>
+                                </article>
+                            </div><!--info-panel-end-->
+                            <div class="tab-panel fade show bg-white" id="transport" role="tabpanel" aria-labelledby="transport-tab">
+                                <h2 class="mb-5">Transportation: getting around in Hungary</h2>
+                                <h4 class="mb-5">Organising Your Trip</h4>
+                                <h5 class="transport-title mb-4">Means of Transport Recommended in Town</h5>
+                                <article class="transport d-flex">
+                                    <p class="trans-1">Recommendation</p>
+                                    <p class="trans-2">Budapest is served by an efficient 
+                                        public transportation system, based on three subway lines, 
+                                        supplemented by a comprehensive bus, tram, and trolley system. 
+                                        Taxis are also readily available. Phoning for a taxi from one of 
+                                        Budapest’s major companies, rather than hailing off the street, 
+                                        usually helps to ensure the appropriate fare.</p>
+                                </article>
+                                <article class="maps d-flex mb-5">
+                                    <p class="map-1">Maps of Urban Networks</p>
+                                    <div class="map-2">
+                                        <p>Budapest subway</p>
+                                        <p>Budapest Transport Company</p>
+                                    </div>
+                                </article>
+                                <h5 class="mb-4">Transportation From Airport to City Centre:</h5>
+                                <div class="row flex-wrap mb-5 px-4">
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-5 px-0">
+                                        <div class="card" style="width: 100%;">
+                                            <div class="card-header  text-center">
+                                                <span class="fas fa-plane-departure d-inline-block"></span>
+                                                <span class="d-block">Airport</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-title text-capitalize">Budapest-Ferihegy(BUD)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-5 px-0">
+                                        <div class="card" style="width: 100%;">
+                                            <div class="card-header  text-center">
+                                                <span class="fas fa-globe d-inline-block"></span>
+                                                <span class="d-block">Distance</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-title text-capitalize">16 km / 10 miles</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-5 px-0">
+                                        <div class="card" style="width: 100%;">
+                                            <div class="card-header  text-center">
+                                                <span class="fas fa-taxi d-inline-block"></span>
+                                                <span class="d-block">Taxi</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-title text-capitalize"> HUF 5200 / 25 min </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-5 px-0">
+                                        <div class="card" style="width: 100%;">
+                                            <div class="card-header  text-center">
+                                                <span class="fas fa-bus d-inline-block"></span>
+                                                <span class="d-block">Bus</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-title text-capitalize">  HUF 2300 </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-5 px-0">
+                                        <div class="card" style="width: 100%;">
+                                            <div class="card-header  text-center">
+                                                <span class="fas fa-train d-inline-block"></span>
+                                                <span class="d-block">Train</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-title text-capitalize">-</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-5 px-0">
+                                        <div class="card" style="width: 100%;">
+                                            <div class="card-header  text-center">
+                                                <span class="fas fa-car d-inline-block"></span>
+                                                <span class="d-block">Car Rental</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-title text-capitalize">Available</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h5 class="mb-4">Means of Transport Recommended in the Rest of the Country</h5>
+                                <article class="d-flex mean">
+                                    <p class="mean-1">
+
+                                        Recommendation</p>
+                                    <p class="mean-2">Railway lines crisscross the country 
+                                        to connect most cities. The 'Inter-City' 
+                                        line provides first-class, express service 
+                                        to several cities. A hydrofoil ferries passengers 
+                                        to Vienna and Bratislava. Hungary’s highways, 
+                                        which are generally good, are undergoing a major 
+                                        improvement to meet EU standards. Express toll 
+                                        highways connect Budapest West to Vienn</p>
+                                </article>
+                                <article class="d-flex">
+                                    <p class="rail-1">
+
+                                        Rail Companies</p>
+                                    <div class="rail-2">
+                                        <p>Hungarian Rail Company</p>
+                                        <p>Hungarian Rail Company's time</p>
+                                    </div>
+                                </article>
+                                <h5 class="text-uppercase mb-3">airlines</h5>
+                                <table class="flights mb-3" style="width: 100%">
+                                    <thead class="flight">
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Domestic Flights</td>
+                                    <td>International Flights</td>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Malev</td>
+                                            <td>National</td>
+                                            <td>None</td>
+                                            <td>Yes</td>
+                                        </tr>
+                                        <tr>
+                                            <td>British Airways</td>
+                                            <td>National</td>
+                                            <td>None</td>
+                                            <td>Yes</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sky Europe</td>
+                                            <td>Low-cost</td>
+                                            <td>None</td>
+                                            <td>Yes</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Air France</td>
+                                            <td>National</td>
+                                            <td>None</td>
+                                            <td>Yes</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Easy Jet</td>
+                                            <td>Low-cost</td>
+                                            <td>None</td>
+                                            <td>Yes</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Air Berlin</td>
+                                            <td>Low-cost</td>
+                                            <td>None</td>
+                                            <td>Yes</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="mb-5">
+                                    You Can Consult The EU Air Safety List. 
+                                    Look Also at the rating of the United States 
+                                    Federal Aviation Administration (FAA).
+                                </p>
+                            </div><!--transport-panel-end-->
+                            <div class="tab-panel fade show bg-white" id="tourism" role="tabpanel" aria-labelledby="tourism-tab">
+                                <h2 class="mb-5">Tourism and cultural activities in Hungary</h2>
+                                <h4 class="mb-5">Visiting</h4>
+                                <h5 class="history-title mb-4">Different Forms of Tourism</h5>
+                                <article class=" d-flex mb-5">
+                                    <p class="history-1">Historical</p>
+                                    <div class="history-2">
+                                        Amongst others, Roman ruins, medieval castles 
+                                        and baroque palaces can all be found throughout Hungary:
+                                        <p>- The Benedictine Abbey at Pannonhalma</p>
+                                        <p>- Buda Castle</p>
+                                        <p>- Pest</p>
+                                        <p>- Eger</p>
+                                        <p>- Szentendre</p>
+                                        <p>- Esztergom</p>
+                                        <p>- Sopron</p>
+                                    </div>
+                                </article>
+                                <article class="culture d-flex mb-5">
+                                    <p class="culture-1">Cultural</p>
+                                    <p class="culture-2">
+                                        There is a great cultural presence in Budapest 
+                                        and in Hungary in general. Pecs, the city in 
+                                        the south of Hungary previously won the right 
+                                        to become Europe's cultural capital in 2010. 
+                                        The capital is filled with art galleries and 
+                                        museums offering a great variety of choice for those who enjoy plastic art.
+                                        More Information on Festivalcity, 
+                                        Szegediszabadteri.
+                                    </p>
+                                </article>
+                                <article class=" d-flex mb-5">
+                                    <p class="nature-1">Nature</p>
+                                    <div class="nature-2">
+                                        <p>- Caves at the Aggtelek National Park </p>
+                                        <p>- Cycling, hiking in the Ferto-Hanság National Park</p>
+                                        <p>- Kiskunság National Park</p>
+                                        <p>- Hortobágy National Park</p>
+                                    </div>
+                                </article>
+                                <div class="tables">
+                                    <table class="table-1 mb-4">
+                                        <thead>
+                                        <td>Top Highlights in the Main Cities</td>
+                                        </thead>
+                                        <tr>
+                                            <td>Buda Castle</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Parliament</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Market place at Fõvámtér</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Chain Bridge / Roosevelt place</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Margit Island, Citadella, Duna corso (pest side) / váci utca, Academy of Music</td>
+                                        </tr>
+                                    </table>
+                                    <table class="table-2">
+                                        <thead>
+                                        <td>Top Highlights of the Country</td>
+                                        </thead>
+                                        <tr>
+                                            <td>Szentendre / Esztergom and the Duna bend, 
+                                                Grassalkovich Royal Palace (Gödöllõ), 
+                                                Tihany, Puszta, Baradla Caves, Miskolc, 
+                                                Hollókõ village, Sopron and Fertõ tó.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tokaj wine region</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hévíz</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div><!--tourism-panel-end-->
+                        </div><!--tab-content-end-->
+
+                    </div><!--container-end-->
                 </section><!--travel-section-end-->
+                
+                <section class="clubbing-section pt-4">
+                    <div class="container text-center">
+                        <h2 class="text-capitalize mb-4">Clubbing in hungary</h2>
+                        <div class="club-slider owl-carousel owl-theme">
+                            <a href="#" class="d-block">
+                                <img src="img/club/club_1.jpg" alt=""/>
+                            </a>
+                            <a href="#" class="d-block">
+                                <img src="img/club/club_2.jpg" alt=""/>
+                            </a>
+                            <a href="#" class="d-block">
+                                <img src="img/club/club_3.jpg" alt=""/>
+                            </a>
+                            <a href="#" class="d-block">
+                                <img src="img/club/club_4.jpg" alt=""/>
+                            </a>
+                        </div>
+                    </div>
+                </section>
 
             </section><!--services-section-end-->
 
@@ -300,8 +679,8 @@ and open the template in the editor.
 
         <footer>
             <div class=" d-flex justify-content-between container align-items-center">
-                <div class="logo">
-                    <a class="d-block w-50">
+                <div class="logo w-25">
+                    <a class="d-block">
                         <img src="img/logo.png" alt=""/>
                     </a>
                 </div>
