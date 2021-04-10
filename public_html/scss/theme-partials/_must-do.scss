@@ -1,0 +1,29 @@
+
+.wellness-section{
+    color: black;
+    background-color: #ccc;
+    
+    a, h5, span, btn{
+    font-size: 1.5rem;
+    }
+    
+    div .col-12{
+        background-color: white;
+    }
+    
+
+    
+}/*wellness-section-end*/
+
+@media(min-width:768px){
+    
+    .wellness-section{
+        div .col-12{
+            margin-bottom: 2rem !important;
+            height: 15rem;
+            max-width: 35rem;
+            margin-right: 1rem;
+            padding-top: 1rem;
+        }
+    }
+}

@@ -9620,6 +9620,7 @@ body h4, body h5 {
   font-size: 5rem;
 }
 
+.lead-must-section,
 .services-lead-section,
 .lead-water-section {
   height: 72rem;
@@ -9629,6 +9630,7 @@ body h4, body h5 {
   background-size: cover;
 }
 
+.lead-must-section .lead-title,
 .services-lead-section .lead-title,
 .lead-water-section .lead-title {
   color: #e8090d;
@@ -9809,7 +9811,6 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
     left: 35rem;
     color: #fff;
     position: relative;
-    top: -45rem;
     background-color: rgba(194, 184, 182, 0.5);
   }
 }
@@ -9835,7 +9836,6 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
     left: 64rem;
     color: #fff;
     position: relative;
-    top: -65rem;
     background-color: rgba(194, 184, 182, 0.5);
   }
 }
@@ -9861,7 +9861,6 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
     left: 74rem;
     color: #fff;
     position: relative;
-    top: -65rem;
     background-color: rgba(194, 184, 182, 0.5);
   }
 }
@@ -10294,7 +10293,7 @@ main {
   }
 }
 
-.single-section img {
+.single-lake-section img {
   height: 100%;
 }
 
@@ -10583,6 +10582,41 @@ main {
     height: 51rem;
   }
   /*clubbing-section-end*/
+}
+
+.wellness-section {
+  color: black;
+  background-color: #ccc;
+}
+
+.wellness-section a, .wellness-section h5, .wellness-section span, .wellness-section btn {
+  font-size: 1.5rem;
+}
+
+.wellness-section div .col-12 {
+  background-color: white;
+}
+
+/*wellness-section-end*/
+@media (min-width: 768px) {
+  .wellness-section div .col-12 {
+    margin-bottom: 2rem !important;
+    height: 15rem;
+    max-width: 35rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+  }
+}
+
+.single-book-section {
+  color: black;
+  font-size: 2rem;
+}
+
+.single-book-section img {
+  width: 55rem;
+  height: 40rem;
+  margin-right: 2rem;
 }
 
 /*# sourceMappingURL=theme.css.map */
