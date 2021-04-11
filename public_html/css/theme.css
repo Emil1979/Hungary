@@ -10587,6 +10587,7 @@ main {
 .wellness-section {
   color: black;
   background-color: #ccc;
+  border-bottom: 1px solid white;
 }
 
 .wellness-section a, .wellness-section h5, .wellness-section span, .wellness-section btn {
@@ -10598,13 +10599,71 @@ main {
 }
 
 /*wellness-section-end*/
+.club-section {
+  color: black;
+  padding-top: 3rem;
+}
+
+.club-section .club-item a, .club-section .club-item div {
+  flex: 0 0 50%;
+}
+
+/*club-section-end*/
+.sport-section {
+  color: black;
+  padding-top: 5rem;
+}
+
+.sport-section .waterpolo a {
+  display: block;
+  width: 100%;
+}
+
+.sport-section .waterpolo a img {
+  display: block;
+  width: 100%;
+  height: 20rem;
+}
+
+/*sport-section-end*/
+@media (min-width: 576px) {
+  .sport-section .waterpolo a {
+    display: block;
+    flex: 0 0 100% img;
+    flex-display: block;
+    flex-width: 100%;
+  }
+}
+
 @media (min-width: 768px) {
+  .sport-section .waterpolo a {
+    display: block;
+    flex: 0 0 50%;
+  }
+  .sport-section .waterpolo a img {
+    display: block;
+    width: 100%;
+    height: 23rem;
+  }
   .wellness-section div .col-12 {
     margin-bottom: 2rem !important;
     height: 15rem;
     max-width: 35rem;
     margin-right: 1rem;
     padding-top: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .wellness-section div .col-12 {
+    margin-bottom: 2rem !important;
+    height: 20rem;
+    max-width: 55rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+  }
+  .wellness-section div .col-12 img {
+    height: 100%;
   }
 }
 
